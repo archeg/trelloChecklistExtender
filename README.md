@@ -1,8 +1,8 @@
-##Chrome extension to show checklist on top of tickets
+##Chrome extension to show checklists data on top of tickets in Trello
 
-This simple extension uses Trello API to get data about checklists in each ticket and display first unchecked item from each checklist for each ticket on top of the ticket. It will also display ALL items from the checklist named "Pending"
+This simple extension uses Trello API to get checklists data from each ticket and display first unchecked item from each checklist for each ticket on top of the it. It will also display ALL items from the checklist named "Pending"
 
-This sources require 'key.js' file to be put in the root folder with the next contents:
+These sources require 'key.js' file to be placed in the root folder with the next contents:
 ```javascript
 var APP_KEY = '<your trello developer API key>';
 ```
