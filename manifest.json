@@ -2,7 +2,7 @@
 	"name": "Trello CheckList Extender",
 	"version": "0.1",
 	"manifest_version" : 2,
-	"description": "An extension to Google Chrome that shows pending checklist items for each task in Trello (Pending items are called first unchecked item or all the items from checklist called 'Pending')",
+	"description": "Shows pending checklist items for each task in Trello (first unchecked item or all the items from checklist called 'Pending')",
 	"background" : {
 		"page" : "background.html",
 		"persistent": false
